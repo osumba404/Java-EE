@@ -1,6 +1,6 @@
 # EJB Timer Callback Notification Demo
 
-This application demonstrates Timer Callback Notification in Java EJB.
+This application demonstrates Timer Callback Notification in Java.
 
 ## Features
 - Timer object that expires in 15 seconds
@@ -10,16 +10,9 @@ This application demonstrates Timer Callback Notification in Java EJB.
 
 ## Running the Application
 
-### Option 1: Run as Java Application
 ```bash
-mvn compile exec:java -Dexec.mainClass="com.example.TimerApplication"
+mvn compile exec:java
 ```
-
-### Option 2: Run with Jetty Server
-```bash
-mvn jetty:run
-```
-Then visit: http://localhost:8080/timer
 
 ## Expected Output
 1. "Checking for appointment"

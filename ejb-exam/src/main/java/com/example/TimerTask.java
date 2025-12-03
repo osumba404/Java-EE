@@ -2,7 +2,7 @@ package com.example;
 
 import java.util.Timer;
 
-public class TimerApplication {
+public class TimerTask {
     
     public static void main(String[] args) {
         System.out.println("Checking for appointment");
